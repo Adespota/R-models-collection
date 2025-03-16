@@ -1,1 +1,10 @@
+#Multiple linear regression model
 
+# Load the mtcars dataset
+data("mtcars")  
+
+# Create the multiple linear regression model
+model <- lm(mpg ~ cyl + disp + hp + wt, data = mtcars)  
+
+# Summary of the model
+summary(model)
