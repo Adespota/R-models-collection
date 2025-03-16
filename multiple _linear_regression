@@ -4,7 +4,7 @@
 data("mtcars")  
 
 # Create the multiple linear regression model
-modello <- lm(mpg ~ cyl + disp + hp + wt, data = mtcars)  
+model <- lm(mpg ~ cyl + disp + hp + wt, data = mtcars)  
 
 # Summary of the model
-summary(modello)  
+summary(model)  
