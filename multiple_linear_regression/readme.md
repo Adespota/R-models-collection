@@ -26,11 +26,13 @@ Il modello di regressione lineare multipla che hai creato ti dirà come le varia
 📌 **Vuoi testare il modello?**  
 Esegui il seguente codice in R:
 ```r
-# Caricare il dataset mtcars
-data("mtcars")
+#Multiple linear regression model
 
-# Creare il modello di regressione lineare multipla
-modello <- lm(mpg ~ cyl + disp + hp + wt, data = mtcars)
+# Load the mtcars dataset
+data("mtcars")  
 
-# Riepilogo del modello
-summary(modello)
+# Create the multiple linear regression model
+model <- lm(mpg ~ cyl + disp + hp + wt, data = mtcars)  
+
+# Summary of the model
+summary(model)
